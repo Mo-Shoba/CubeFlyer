@@ -28,7 +28,6 @@ var resetScore = function () {
 	score = 0;
 	updateScoreText();
 };
-
 var addScore = function (points) {
 	score += points;
 	updateScoreText();
