@@ -33,3 +33,8 @@ var addScore = function (points) {
 	score += points;
 	updateScoreText();
 };
+
+// Add a game timer that increments the score for every second the player is in the game
+var gameTimer = setInterval(function() {
+    addScore(1); // adds 1 point to the score every second
+}, 1000);
