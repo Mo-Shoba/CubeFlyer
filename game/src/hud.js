@@ -33,3 +33,10 @@ var addScore = function (points) {
 	score += points;
 	updateScoreText();
 };
+
+// Add a function that is called whenever an obstacle is passed or created
+var createObstacle = function() {
+    // code to create an obstacle goes here
+
+    addScore(10); // adds 10 points to the score whenever an obstacle is created
+};
